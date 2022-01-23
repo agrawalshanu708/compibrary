@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+}
+
+:root {
+  --h1-font-size: 3.4rem;
+  --h2-font-size: 2.4rem;
+  --h3-font-size: 1.9rem;
+}
+
+* {
+  margin: 0.1rem;
+  padding: 0.2rem;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header,
+footer {
+  border: 1px solid black;
+  height: 6rem;
+  width: auto;
+}
+.middle {
+  display: flex;
+}
+.middle > div {
+  border: 1px solid black;
+}
+.right,
+.left {
+  width: 50rem;
+  min-height: 50rem;
+}
+.main {
+  min-height: 50rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+button {
+  display: block;
+}
+h1 {
+  font-size: var(--h1-font-size);
+  margin: 1rem;
+}
+p {
+  font-size: 19px;
+  font-weight: normal;
+  margin: 3rem;
+}
+h2 {
+  font-size: var(--h2-font-size);
+  margin: 1rem;
+}
+.box {
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+  padding: 4rem 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}

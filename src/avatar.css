@@ -1,0 +1,19 @@
+img {
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+  ertical-align: middle;
+}
+
+.s {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  ertical-align: middle;
+}
+.m {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  ertical-align: middle;
+}
